@@ -26,7 +26,7 @@ module.exports = new function() {
 		{name: "includeFromUrlWindow", timeout: 10000}
 	]
 
-	var testval = false;
+	//var testval = false;
 
 	this.relativeDown = function(testRun) {
 		testval = false;
