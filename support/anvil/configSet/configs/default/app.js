@@ -33,6 +33,7 @@ var suites = [
 	{name: "ui_clipboard"},
 	{name: "ui_controls"},
 	{name: "utils/utils"},
+	{name: "ui_searchBar"},
 	{name: "yahoo"}
 ];
 
