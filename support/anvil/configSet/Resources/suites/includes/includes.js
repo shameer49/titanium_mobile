@@ -26,10 +26,10 @@ module.exports = new function() {
 		{name: "includeFromUrlWindow", timeout: 10000}
 	]
 
-	var testval = false;
+	//var testval = false;
 
 	this.relativeDown = function(testRun) {
-		testval = false;
+	var	testval = false;
 		valueOf(testRun, function(){
 			Ti.include('relative_down.js');
 		}).shouldNotThrowException();
