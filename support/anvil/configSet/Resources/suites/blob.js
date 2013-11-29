@@ -35,7 +35,7 @@ module.exports = new function() {
 	this.invalidSource = function (testRun) {
 		if (Ti.Platform.osname === 'android') {
 			valueOf(testRun, function() {
-				var image1 = Ti.UI.createImageView({
+				var image11 = Ti.UI.createImageView({
 					image:"images/schat.png"
 				});
 				var blob = image1.toBlob();
